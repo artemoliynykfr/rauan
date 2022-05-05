@@ -40,7 +40,10 @@ header .nav a.nav-text {
   cursor: pointer;
 }
 
-header .nav a.nav-text:hover {
+header .nav a.nav-text:hover,
+header .nav a.nav-text:visited,
+header .nav a.nav-text:active,
+header .nav a.nav-text:focus {
   opacity: 0.7;
   color: #ffffff;
 }
