@@ -271,7 +271,7 @@ header .start__text {
   top: -122px;
   width: 100%;
   height: 100%;
-  z-index: 0 !important;
+  z-index: -1 !important;
 }
 
 .tost .swiper-slide {
@@ -281,6 +281,7 @@ header .start__text {
   border-radius: 25px;
   height: 438px;
   border: none !important;
+  z-index: 99;
 }
 
 .tost__text {
