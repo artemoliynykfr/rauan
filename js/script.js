@@ -38,13 +38,13 @@ function burgerMenu() {
    })
 }
 burgerMenu();
-/* var myCarousel = document.querySelector('#carouselExampleControls')
+var myCarousel = document.querySelector('#carouselExampleControls')
 var carousel = new bootstrap.Carousel(myCarousel, {
-  interval: 5000,
-  wrap: true,
-  pause: true,
-  touch: true,
-}) */
+   interval: 5000,
+   wrap: true,
+   pause: true,
+   touch: true,
+})
 new Swiper('.swiper-container', {
    direction: 'horizontal',
    loop: !0,
@@ -63,9 +63,9 @@ new Swiper('.swiper-container', {
       },
    },
    navigation: {
-		nextEl: '.carousel-control-next',
-		prevEl: '.carousel-control-prev',
-	},
+      nextEl: '.carousel-control-next',
+      prevEl: '.carousel-control-prev',
+   },
    keyboard: {
       enabled: !0,
       onlyInViewport: !1

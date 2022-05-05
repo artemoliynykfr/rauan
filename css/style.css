@@ -294,6 +294,126 @@ header .start__text {
   color: #250101;
 }
 
+.tost__subtext {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.22;
+  color: #250101;
+}
+
+.section__services {
+  padding: 0 0 90px;
+}
+
+.services__subtitle {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 136%;
+}
+
+.services__subtitle span {
+  color: #ac2331;
+  font-weight: 700;
+  position: relative;
+  font-size: 28px;
+}
+
+.services__subtitle span::after {
+  content: "";
+  width: 167.22px;
+  height: 72.41px;
+  position: absolute;
+  left: -18px;
+  top: -20px;
+  border-radius: 50%;
+  border: 1px solid rgba(37, 1, 1, 0.4);
+  -webkit-transform: rotate(-11.5deg);
+      -ms-transform: rotate(-11.5deg);
+          transform: rotate(-11.5deg);
+}
+
+.services__item {
+  padding: 35px 31px 30px;
+  background: #ffffff;
+  -webkit-box-shadow: 7px 9px 21px rgba(0, 0, 0, 0.11);
+          box-shadow: 7px 9px 21px rgba(0, 0, 0, 0.11);
+  border-radius: 27px;
+  max-width: 378px;
+  width: 100%;
+}
+
+.services__item:nth-child(2) .services__item-img {
+  background: url(..//img/card-img2.png) center no-repeat;
+}
+
+.services__item:nth-child(3) .services__item-img {
+  background: url(..//img/card-img3.png) center no-repeat;
+}
+
+.services__item-title {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #250101;
+}
+
+.services__item-text {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #250101;
+}
+
+.services__item-img {
+  border-radius: 17px 17px 22px 22px;
+  height: 277px;
+  background: url(..//img/card-img1.png) center no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.services__item-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 16px 0;
+  background: -o-linear-gradient(178.97deg, #250101 3.73%, #B56C6C 93.9%);
+  background: linear-gradient(271.03deg, #250101 3.73%, #B56C6C 93.9%);
+  border-radius: 51px;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.services__item-btn:hover {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #FFFFFF;
+  background: -o-linear-gradient(178.97deg, #4b0000 3.73%, #c97575 93.9%);
+  background: linear-gradient(271.03deg, #4b0000 3.73%, #c97575 93.9%);
+}
+
 body {
   overflow-x: hidden !important;
 }
@@ -482,6 +602,18 @@ a {
     display: block !important;
   }
 
+  .services__header {
+    position: relative;
+  }
+
+  .services__header-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.6;
+  }
+
   .carousel-control {
     left: -110px;
     right: -110px;
@@ -538,6 +670,10 @@ a {
             box-shadow: none;
   }
 
+  .section__services {
+    padding: 0 0 70px;
+  }
+
   .title {
     font-size: 25px;
   }
@@ -563,6 +699,34 @@ a {
   .tost__text {
     font-size: 12px;
   }
+
+  .tost__subtext {
+    font-size: 18px;
+  }
+
+  .services__subtitle {
+    font-size: 18px;
+  }
+
+  .services__subtitle span {
+    font-size: 25px;
+  }
+
+  .services__subtitle span::after {
+    width: 150.04px;
+    height: 40.65px;
+    top: -5px;
+    left: -10px;
+  }
+
+  .services__header-img {
+    width: 140px;
+  }
+
+  .services__header-img img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 400px) {
@@ -576,6 +740,12 @@ a {
 }
 
 .webp header { background: url(..//img/header-bg.webp) center no-repeat; }
+
+.webp .services__item:nth-child(2) .services__item-img { background: url(..//img/card-img2.webp) center no-repeat; }
+
+.webp .services__item:nth-child(3) .services__item-img { background: url(..//img/card-img3.webp) center no-repeat; }
+
+.webp .services__item-img { background: url(..//img/card-img1.webp) center no-repeat; }
 
 @media (max-width: 768px) {
 
