@@ -530,6 +530,10 @@ a {
   }
 }
 
+section {
+  overflow-x: hidden !important;
+}
+
 .title {
   font-family: "Philosopher";
   font-style: normal;
