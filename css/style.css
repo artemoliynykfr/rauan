@@ -534,7 +534,9 @@ a {
   }
 }
 
-section {
+section,
+header,
+footer {
   overflow-x: hidden !important;
 }
 
