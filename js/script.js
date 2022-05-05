@@ -45,15 +45,6 @@ var carousel = new bootstrap.Carousel(myCarousel, {
   pause: true,
   touch: true,
 })
-var myCarousel1 = document.querySelector('#carouselExampleControls1')
-var carousel1 = new bootstrap.Carousel(myCarousel1, {
-   
-  interval: 8000,
-  wrap: true,
-  pause: true,
-  touch: true,
-
-})
 new Swiper('.swiper-container', {
    direction: 'horizontal',
    loop: !0,
