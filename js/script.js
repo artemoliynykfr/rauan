@@ -60,15 +60,15 @@ new Swiper('.swiper-container', {
    speed: 1500,
    slidesPerView: 2,
    spaceBetween: 30,
-   //cssMode: true,
+   cssMode: true,
    breakpoints: {
       992:{
          slidesPerView: 2,
-        // cssMode: true,
+         cssMode: true,
       },
       0:{
          slidesPerView: 1,
-        // cssMode: false,
+         cssMode: false,
       },
    },
    navigation: {

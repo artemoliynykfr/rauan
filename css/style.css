@@ -251,6 +251,7 @@ header .start__text {
 
 .tost__carousel {
   position: relative !important;
+  border: none !important;
 }
 
 .tost__subtitle {
