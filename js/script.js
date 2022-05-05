@@ -38,14 +38,22 @@ function burgerMenu() {
    })
 }
 burgerMenu();
-var myCarousel = document.querySelector('#carouselExampleControls')
-var carousel = new bootstrap.Carousel(myCarousel, {
-   interval: 5000,
-   wrap: true,
-   pause: true,
-   touch: true,
-})
-new Swiper('.swiper-container', {
+new Swiper('.about__carousel > .swiper >.swiper-container', {
+   direction: 'horizontal',
+   loop: !0,
+   speed: 1500,
+   slidesPerView: 1,
+   spaceBetween: 10,
+   navigation: {
+      nextEl: '.carousel-control-next',
+      prevEl: '.carousel-control-prev',
+   },
+   keyboard: {
+      enabled: !0,
+      onlyInViewport: !1
+   },
+});
+new Swiper('.tost__carousel > .swiper >.swiper-container', {
    direction: 'horizontal',
    loop: !0,
    speed: 1500,
@@ -53,11 +61,11 @@ new Swiper('.swiper-container', {
    spaceBetween: 30,
    cssMode: true,
    breakpoints: {
-      992:{
+      992: {
          slidesPerView: 2,
          cssMode: true,
       },
-      0:{
+      0: {
          slidesPerView: 1,
          cssMode: false,
       },
@@ -71,3 +79,14 @@ new Swiper('.swiper-container', {
       onlyInViewport: !1
    },
 });
+const links = document.querySelectorAll('.scroll');
+for (const link of links) {
+   link.addEventListener('click', clickHandler);
+}
+function clickHandler(e) {
+   e.preventDefault();
+   const theLink = this.getAttribute('href');
+   document.querySelector(theLink).scrollIntoView({
+      behavior: 'smooth'
+   });
+}
