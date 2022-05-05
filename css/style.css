@@ -240,38 +240,54 @@ header .start__text {
   stroke-width: 17px;
 }
 
-.about .carousel-control-prev:hover {
-  -webkit-transform: translate(-5px, 0);
-      -ms-transform: translate(-5px, 0);
-          transform: translate(-5px, 0);
+.section__tost {
+  padding: 0 0 90px;
 }
 
-.about .carousel-control-next:hover {
-  -webkit-transform: translate(5px, 0);
-      -ms-transform: translate(5px, 0);
-          transform: translate(5px, 0);
+.tost__title {
+  max-width: 688px;
+  width: 100%;
 }
 
-.about .carousel-control-btn {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+.tost__carousel {
+  position: relative !important;
 }
 
-.about .carousel-control-btn:hover {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+.tost__subtitle {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #250101;
+  position: relative;
 }
 
-.about .carousel-control {
+.tost__subtitle::after {
+  content: url(..//img/firework.svg);
   position: absolute;
-  left: -180px;
-  right: -180px;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-      -ms-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  left: -9px;
+  top: -122px;
+  width: 100%;
+  height: 100%;
+}
+
+.tost .swiper-slide {
+  background: #FFFFFF;
+  -webkit-box-shadow: 7px 9px 21px rgba(0, 0, 0, 0.11);
+          box-shadow: 7px 9px 21px rgba(0, 0, 0, 0.11);
+  border-radius: 25px;
+  height: 438px;
+}
+
+.tost__text {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.36;
+  color: #250101;
 }
 
 body {
@@ -359,6 +375,40 @@ a {
   background: #c6c6c6;
 }
 
+.carousel-control-prev:hover {
+  -webkit-transform: translate(-5px, 0);
+      -ms-transform: translate(-5px, 0);
+          transform: translate(-5px, 0);
+}
+
+.carousel-control-next:hover {
+  -webkit-transform: translate(5px, 0);
+      -ms-transform: translate(5px, 0);
+          transform: translate(5px, 0);
+}
+
+.carousel-control-btn {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.carousel-control-btn:hover {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.carousel-control {
+  position: absolute;
+  left: -180px;
+  right: -180px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
 @media (min-width: 992px) {
   header .navbar-toggler {
     display: none !important;
@@ -366,7 +416,7 @@ a {
 }
 
 @media (max-width: 1400px) {
-  .about .carousel-control {
+  .carousel-control {
     left: -140px;
     right: -140px;
   }
@@ -432,7 +482,7 @@ a {
     display: block !important;
   }
 
-  .about .carousel-control {
+  .carousel-control {
     left: -110px;
     right: -110px;
   }
@@ -445,6 +495,10 @@ a {
 
   header .start {
     max-width: 100%;
+  }
+
+  .section__about {
+    padding: 70px 0;
   }
 
   .about__subtitle {
@@ -469,12 +523,24 @@ a {
        object-position: center;
   }
 
-  .about .carousel-control {
-    display: none;
+  .section__tost {
+    padding: 0 0 70px;
+  }
+
+  .tost__subtitle::after {
+    top: -60px;
+  }
+
+  .tost .swiper-slide {
+    height: auto;
   }
 
   .title {
     font-size: 25px;
+  }
+
+  .carousel-control {
+    display: none;
   }
 }
 
@@ -485,6 +551,14 @@ a {
 
   header .section__start {
     padding: 39px 0 126px;
+  }
+
+  .tost__subtitle {
+    font-size: 20px;
+  }
+
+  .tost__text {
+    font-size: 12px;
   }
 }
 

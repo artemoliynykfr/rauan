@@ -40,8 +40,43 @@ function burgerMenu() {
 burgerMenu();
 var myCarousel = document.querySelector('#carouselExampleControls')
 var carousel = new bootstrap.Carousel(myCarousel, {
-  interval: 2000,
-  wrap: false,
+  interval: 5000,
+  wrap: true,
   pause: true,
   touch: true,
 })
+var myCarousel1 = document.querySelector('#carouselExampleControls1')
+var carousel1 = new bootstrap.Carousel(myCarousel1, {
+   
+  interval: 8000,
+  wrap: true,
+  pause: true,
+  touch: true,
+
+})
+new Swiper('.swiper-container', {
+   direction: 'horizontal',
+   loop: !0,
+   speed: 1500,
+   slidesPerView: 2,
+   spaceBetween: 30,
+   cssMode: true,
+   breakpoints: {
+      992:{
+         slidesPerView: 2,
+         cssMode: true,
+      },
+      0:{
+         slidesPerView: 1,
+         cssMode: false,
+      },
+   },
+   navigation: {
+		nextEl: '.carousel-control-next',
+		prevEl: '.carousel-control-prev',
+	},
+   keyboard: {
+      enabled: !0,
+      onlyInViewport: !1
+   },
+});
