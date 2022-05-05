@@ -483,6 +483,10 @@ footer {
   transition: all 0.3s ease;
 }
 
+.footer__icons .scroll {
+  margin-left: 100px;
+}
+
 body {
   overflow-x: hidden !important;
 }
@@ -623,6 +627,10 @@ section {
   .section__contact {
     padding: 90px 0 250px;
   }
+
+  .footer__icons .scroll {
+    margin-left: 50px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -693,6 +701,10 @@ section {
 
   .contact__title {
     margin-bottom: 100px !important;
+  }
+
+  footer {
+    padding: 80px 0;
   }
 
   .carousel-control {
