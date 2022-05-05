@@ -262,6 +262,7 @@ header .start__text {
   letter-spacing: 0.02em;
   color: #250101;
   position: relative;
+  z-index: 99;
 }
 
 .tost__subtitle::after {
@@ -280,12 +281,11 @@ header .start__text {
           box-shadow: 7px 9px 21px rgba(0, 0, 0, 0.11);
   border-radius: 25px;
   height: 438px;
-  border: none !important;
   z-index: 99;
 }
 
 .tost__text {
-  z-index: 1 !important;
+  z-index: 99 !important;
   font-family: "Philosopher";
   font-style: normal;
   font-weight: 400;
@@ -533,6 +533,9 @@ a {
 
   .tost .swiper-slide {
     height: auto;
+    border: none !important;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
 
   .title {
