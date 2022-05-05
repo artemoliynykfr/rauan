@@ -674,6 +674,15 @@ a {
     padding: 0 0 70px;
   }
 
+  .services__header-img {
+    width: 140px;
+  }
+
+  .services__header-img img {
+    width: 100%;
+    height: auto;
+  }
+
   .title {
     font-size: 25px;
   }
@@ -717,15 +726,6 @@ a {
     height: 40.65px;
     top: -5px;
     left: -10px;
-  }
-
-  .services__header-img {
-    width: 140px;
-  }
-
-  .services__header-img img {
-    width: 100%;
-    height: auto;
   }
 }
 
