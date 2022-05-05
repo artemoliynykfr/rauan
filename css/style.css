@@ -1,5 +1,5 @@
 header {
-  background: url(..//img/header-bg.png) center no-repeat;
+  background: url(..//img/header-bg.webp) center no-repeat;
   background-size: cover !important;
 }
 
@@ -171,119 +171,6 @@ header .start__text {
   color: #FFFFFF;
 }
 
-.modal-content {
-  background: -o-linear-gradient(19.27deg, #200001 11.09%, #4F1513 91.74%);
-  background: linear-gradient(70.73deg, #200001 11.09%, #4F1513 91.74%);
-}
-
-.modal-dialog {
-  max-width: 600px;
-}
-
-.modal-title {
-  color: #fff !important;
-}
-
-.btn-close {
-  position: absolute;
-  right: 15px;
-  top: 0px;
-  cursor: pointer;
-  color: #FFFFFF;
-  font-size: 50px;
-  background: none;
-  opacity: 1;
-  width: auto;
-  height: auto;
-  padding: 0;
-}
-
-.btn-close:hover {
-  color: #FFFFFF;
-  opacity: 1;
-}
-
-.modal-header {
-  border: none !important;
-}
-
-.modal-form-input {
-  background: #4F1513;
-  color: #fff;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 1px;
-  border: none;
-  resize: none;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.modal-form-input:focus-visible {
-  outline: none;
-  border-bottom: 2px solid white;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.modal-form-input::-webkit-input-placeholder {
-  color: #fff;
-}
-
-.modal-form-input::-moz-placeholder {
-  color: #fff;
-}
-
-.modal-form-input:-ms-input-placeholder {
-  color: #fff;
-}
-
-.modal-form-input::-ms-input-placeholder {
-  color: #fff;
-}
-
-.modal-form-input::placeholder {
-  color: #fff;
-}
-
-.modal-form-input::-moz-placeholder {
-  color: #fff;
-}
-
-.modal-form-btn {
-  background: #4b0000;
-  border-radius: 51px;
-  font-family: "Philosopher";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0.02em;
-  color: #FFFFFF;
-  text-align: center;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  border: none;
-}
-
-.modal-form-btn:hover {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  color: #FFFFFF;
-  background: #720000;
-}
-
-.modal-form-textarea {
-  height: 150px;
-}
-
 .section__about {
   padding: 90px 0;
 }
@@ -327,7 +214,7 @@ header .start__text {
   -webkit-box-shadow: 7px 9px 21px rgba(0, 0, 0, 0.11);
           box-shadow: 7px 9px 21px rgba(0, 0, 0, 0.11);
   border-radius: 24px;
-  background: url(..//img/video-bg.png) center no-repeat;
+  background: url(..//img/video-bg.webp) center no-repeat;
   background-size: cover !important;
   width: 100%;
   min-height: 568px;
@@ -469,11 +356,11 @@ header .start__text {
 }
 
 .services__item:nth-child(2) .services__item-img {
-  background: url(..//img/card-img2.png) center no-repeat;
+  background: url(..//img/card-img2.webp) center no-repeat;
 }
 
 .services__item:nth-child(3) .services__item-img {
-  background: url(..//img/card-img3.png) center no-repeat;
+  background: url(..//img/card-img3.webp) center no-repeat;
 }
 
 .services__item-title {
@@ -498,7 +385,7 @@ header .start__text {
 .services__item-img {
   border-radius: 17px 17px 22px 22px;
   height: 277px;
-  background: url(..//img/card-img1.png) center no-repeat;
+  background: url(..//img/card-img1.webp) center no-repeat;
   background-size: cover;
   position: relative;
   width: 100%;
@@ -538,7 +425,7 @@ header .start__text {
 
 .section__contact {
   padding: 90px 0 318px;
-  background: url(..//img/contact-bg.png) center no-repeat;
+  background: url(..//img/contact-bg.webp) center no-repeat;
   background-size: cover !important;
 }
 
@@ -833,15 +720,11 @@ footer {
 
 @media (max-width: 768px) {
   header {
-    background: url(..//img/header-bg-mobile.png) bottom right no-repeat;
+    background: url(..//img/header-bg-mobile.webp) bottom right no-repeat;
   }
 
   header .start {
     max-width: 100%;
-  }
-
-  .modal-dialog {
-    max-width: 500px;
   }
 
   .section__about {
@@ -934,7 +817,7 @@ footer {
   }
 
   .section__contact {
-    background: url(..//img/contact-bg-mobile.png) center no-repeat;
+    background: url(..//img/contact-bg-mobile.webp) center no-repeat;
   }
 }
 
@@ -954,26 +837,4 @@ footer {
   .btn {
     width: 100%;
   }
-}
-
-.webp header { background: url(..//img/header-bg.webp) center no-repeat; }
-
-.webp .about .swiper-slide { background: url(..//img/video-bg.webp) center no-repeat; }
-
-.webp .services__item:nth-child(2) .services__item-img { background: url(..//img/card-img2.webp) center no-repeat; }
-
-.webp .services__item:nth-child(3) .services__item-img { background: url(..//img/card-img3.webp) center no-repeat; }
-
-.webp .services__item-img { background: url(..//img/card-img1.webp) center no-repeat; }
-
-.webp .section__contact { background: url(..//img/contact-bg.webp) center no-repeat; }
-
-@media (max-width: 768px) {
-
-  .webp header { background: url(..//img/header-bg-mobile.webp) bottom right no-repeat; }
-}
-
-@media (max-width: 576px) {
-
-  .webp .section__contact { background: url(..//img/contact-bg-mobile.webp) center no-repeat; }
 }
