@@ -317,10 +317,6 @@ a {
   text-decoration: none !important;
 }
 
-.section {
-  overflow-x: hidden !important;
-}
-
 @-webkit-keyframes fade {
   0% {
     opacity: 0;
