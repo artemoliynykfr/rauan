@@ -171,6 +171,119 @@ header .start__text {
   color: #FFFFFF;
 }
 
+.modal-content {
+  background: -o-linear-gradient(19.27deg, #200001 11.09%, #4F1513 91.74%);
+  background: linear-gradient(70.73deg, #200001 11.09%, #4F1513 91.74%);
+}
+
+.modal-dialog {
+  max-width: 600px;
+}
+
+.modal-title {
+  color: #fff !important;
+}
+
+.btn-close {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 50px;
+  background: none;
+  opacity: 1;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+.btn-close:hover {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.modal-header {
+  border: none !important;
+}
+
+.modal-form-input {
+  background: #4F1513;
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  border: none;
+  resize: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.modal-form-input:focus-visible {
+  outline: none;
+  border-bottom: 2px solid white;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.modal-form-input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.modal-form-input::-moz-placeholder {
+  color: #fff;
+}
+
+.modal-form-input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.modal-form-input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.modal-form-input::placeholder {
+  color: #fff;
+}
+
+.modal-form-input::-moz-placeholder {
+  color: #fff;
+}
+
+.modal-form-btn {
+  background: #4b0000;
+  border-radius: 51px;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.modal-form-btn:hover {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #FFFFFF;
+  background: #720000;
+}
+
+.modal-form-textarea {
+  height: 150px;
+}
+
 .section__about {
   padding: 90px 0;
 }
@@ -725,6 +838,10 @@ footer {
 
   header .start {
     max-width: 100%;
+  }
+
+  .modal-dialog {
+    max-width: 500px;
   }
 
   .section__about {
